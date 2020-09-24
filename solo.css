@@ -1,0 +1,273 @@
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden; /* Hide overflow */
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left; /* Make sure that the links stay side-by-side */
+  display: block; /* Change the display to block, for responsive reasons (see below) */
+  color: gray; /* black text color */
+  text-align: center; /* Center the text */
+  padding: 1px 40px; /* Add some padding */
+  text-decoration: none; /* Remove underline */
+  font-size: 14px
+
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: left; /* Float a link to the right */
+}
+
+/* Change color on hover/mouse-over */
+.navbar a:hover {
+  background-color: #ddd; /* Grey background color */
+  color: black; /* Black text color */
+}
+
+/* Style the top navigation bar */
+.navbar2 {
+  overflow: hidden; /* Hide overflow */
+  /* Dark background color */
+}
+
+/* Style the navigation bar links */
+.navbar2 a {
+  float: left; /* Make sure that the links stay side-by-side */
+  display: block; /* Change the display to block, for responsive reasons (see below) */
+  color: black; /* black text color */
+  text-align: left; /* Center the text */
+  padding: 40px 40px; /* Add some padding */
+  text-decoration: none; /* Remove underline */
+  font-size: 20px
+   border-style: groove;
+  /*height :10%;*/
+}
+
+/* Right-aligned link */
+.navbar2 a.right {
+  float: left; /* Float a link to the right */
+}
+
+/* Change color on hover/mouse-over */
+.navbar2 a:hover {
+ background-color: #ddd; /* Grey background color */
+  color: black; /* Black text color */
+}
+#a1{
+margin-bottom: 50px
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+
+body {
+  font-family: Arial;
+  padding: 20px;
+  background-color: hsl(0deg 0% 100%);
+/*   background-image: url("bc.png");*/
+ 
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  color:hsl(30deg 20% 96%)
+}
+
+
+* {box-sizing:border-box}
+body { font-family: Verdana, sans-serif; margin:0}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 2550px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 40px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 10px;
+/*  left: 100px*/
+/*  width: 40%;*/
+  text-align: center;
+/*  position: relative;
+  left: 350px*/
+/*  font-weight: bold;*/
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+section{
+
+  text-align: center;
+ box-decoration-break: clone;
+   background-image: url("bc.png");
+
+}
+
+/*gellery */
+
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width:400px;
+    background-image: url("bc.png");*/
+
+}
+
+/*when click
+*/
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+/*each img */
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+/*text under img */
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+/*section h1,h2*/
+
+h1 {
+  text-align: center;
+}
+h3 {
+  /*  width: 400px;*/
+  text-align: center;
+  margin-top: 50px
+}
+
+/*secound gellerry*/
+
+div.new {
+
+  margin: 5px;
+  border:15px solid white;
+  float: left;
+  width:400px;
+  padding-top: 80px 
+
+}
+/*on click*/
+
+div.new:hover {
+  border: 1px solid #777;
+}
+
+/*each img */
+div.new img {
+  width: 100%;
+  height: auto;
+}
+
+div.news {
+  padding: 15px;
+  text-align: center;
+}
